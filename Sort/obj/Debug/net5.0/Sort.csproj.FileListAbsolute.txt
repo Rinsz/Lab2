@@ -1,0 +1,12 @@
+C:\Users\Belka\RiderProjects\Lab2\Sort\bin\Debug\net5.0\Sort.deps.json
+C:\Users\Belka\RiderProjects\Lab2\Sort\bin\Debug\net5.0\Sort.dll
+C:\Users\Belka\RiderProjects\Lab2\Sort\bin\Debug\net5.0\ref\Sort.dll
+C:\Users\Belka\RiderProjects\Lab2\Sort\bin\Debug\net5.0\Sort.pdb
+C:\Users\Belka\RiderProjects\Lab2\Sort\obj\Debug\net5.0\Sort.csprojAssemblyReference.cache
+C:\Users\Belka\RiderProjects\Lab2\Sort\obj\Debug\net5.0\Sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Belka\RiderProjects\Lab2\Sort\obj\Debug\net5.0\Sort.AssemblyInfoInputs.cache
+C:\Users\Belka\RiderProjects\Lab2\Sort\obj\Debug\net5.0\Sort.AssemblyInfo.cs
+C:\Users\Belka\RiderProjects\Lab2\Sort\obj\Debug\net5.0\Sort.csproj.CoreCompileInputs.cache
+C:\Users\Belka\RiderProjects\Lab2\Sort\obj\Debug\net5.0\Sort.dll
+C:\Users\Belka\RiderProjects\Lab2\Sort\obj\Debug\net5.0\ref\Sort.dll
+C:\Users\Belka\RiderProjects\Lab2\Sort\obj\Debug\net5.0\Sort.pdb
