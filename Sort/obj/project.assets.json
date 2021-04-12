@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Belka\\RiderProjects\\Lab2\\BubbleSort\\BubbleSort.csproj",
-      "projectName": "BubbleSort",
-      "projectPath": "C:\\Users\\Belka\\RiderProjects\\Lab2\\BubbleSort\\BubbleSort.csproj",
+      "projectUniqueName": "C:\\Users\\Belka\\RiderProjects\\Lab2\\Sort\\Sort.csproj",
+      "projectName": "Sort",
+      "projectPath": "C:\\Users\\Belka\\RiderProjects\\Lab2\\Sort\\Sort.csproj",
       "packagesPath": "C:\\Users\\Belka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Belka\\RiderProjects\\Lab2\\BubbleSort\\obj\\",
+      "outputPath": "C:\\Users\\Belka\\RiderProjects\\Lab2\\Sort\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

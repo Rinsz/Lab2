@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{F242683C-D77B-4CF8-A636-159F53D9973F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort", "Sort\Sort.csproj", "{F242683C-D77B-4CF8-A636-159F53D9973F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{AF5ABC0B-03DE-49A1-ACB0-726DCB538706}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,9 @@ Global
 		{F242683C-D77B-4CF8-A636-159F53D9973F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F242683C-D77B-4CF8-A636-159F53D9973F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F242683C-D77B-4CF8-A636-159F53D9973F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF5ABC0B-03DE-49A1-ACB0-726DCB538706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF5ABC0B-03DE-49A1-ACB0-726DCB538706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF5ABC0B-03DE-49A1-ACB0-726DCB538706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF5ABC0B-03DE-49A1-ACB0-726DCB538706}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
