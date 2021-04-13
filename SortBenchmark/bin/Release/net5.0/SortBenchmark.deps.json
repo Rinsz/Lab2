@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SortBenchmark/1.0.0": {
+        "dependencies": {
+          "Sort": "1.0.0"
+        },
+        "runtime": {
+          "SortBenchmark.dll": {}
+        }
+      },
+      "Sort/1.0.0": {
+        "runtime": {
+          "Sort.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SortBenchmark/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sort/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

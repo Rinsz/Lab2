@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\n.bugrov\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\n.bugrov\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArithmeticProgressionExperiment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MinimalElementLength>0</MinimalElementLength>
+  <MaximalElementLength>20</MaximalElementLength>
+  <StartCollectionLength>1000</StartCollectionLength>
+  <MaximalCollectionLength>3000</MaximalCollectionLength>
+  <LengthIncrement>100</LengthIncrement>
+  <Repeats>15</Repeats>
+</ArithmeticProgressionExperiment><?xml version="1.0"?>
+<GeometricProgressionExperiment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MinimalElementLength>0</MinimalElementLength>
+  <MaximalElementLength>20</MaximalElementLength>
+  <StartCollectionLength>10</StartCollectionLength>
+  <MaximalCollectionLength>15</MaximalCollectionLength>
+  <LengthIncrement>2</LengthIncrement>
+  <Repeats>15</Repeats>
+</GeometricProgressionExperiment>
