@@ -10,3 +10,15 @@ C:\Users\Belka\RiderProjects\Lab2\Sort\obj\Debug\net5.0\Sort.csproj.CoreCompileI
 C:\Users\Belka\RiderProjects\Lab2\Sort\obj\Debug\net5.0\Sort.dll
 C:\Users\Belka\RiderProjects\Lab2\Sort\obj\Debug\net5.0\ref\Sort.dll
 C:\Users\Belka\RiderProjects\Lab2\Sort\obj\Debug\net5.0\Sort.pdb
+C:\Users\n.bugrov\Desktop\Lab2-master\Sort\bin\Debug\net5.0\Sort.deps.json
+C:\Users\n.bugrov\Desktop\Lab2-master\Sort\bin\Debug\net5.0\Sort.dll
+C:\Users\n.bugrov\Desktop\Lab2-master\Sort\bin\Debug\net5.0\ref\Sort.dll
+C:\Users\n.bugrov\Desktop\Lab2-master\Sort\bin\Debug\net5.0\Sort.pdb
+C:\Users\n.bugrov\Desktop\Lab2-master\Sort\obj\Debug\net5.0\Sort.csprojAssemblyReference.cache
+C:\Users\n.bugrov\Desktop\Lab2-master\Sort\obj\Debug\net5.0\Sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n.bugrov\Desktop\Lab2-master\Sort\obj\Debug\net5.0\Sort.AssemblyInfoInputs.cache
+C:\Users\n.bugrov\Desktop\Lab2-master\Sort\obj\Debug\net5.0\Sort.AssemblyInfo.cs
+C:\Users\n.bugrov\Desktop\Lab2-master\Sort\obj\Debug\net5.0\Sort.csproj.CoreCompileInputs.cache
+C:\Users\n.bugrov\Desktop\Lab2-master\Sort\obj\Debug\net5.0\Sort.dll
+C:\Users\n.bugrov\Desktop\Lab2-master\Sort\obj\Debug\net5.0\ref\Sort.dll
+C:\Users\n.bugrov\Desktop\Lab2-master\Sort\obj\Debug\net5.0\Sort.pdb
