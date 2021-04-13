@@ -17,6 +17,7 @@ namespace BubbleSort
                 swapCount = 0;
                 for (var i = 1; i < arr.Length; i++)
                 {
+                    totalOperations++;
                     if (!NeedToSwap(arr[i - 1], arr[i], order))
                         continue;
                     var temp = arr[i - 1];
@@ -24,8 +25,6 @@ namespace BubbleSort
                     arr[i] = temp;
                     swapCount++;
                 }
-                
-                totalOperations += swapCount;
                 
             } while (swapCount != 0);
 
