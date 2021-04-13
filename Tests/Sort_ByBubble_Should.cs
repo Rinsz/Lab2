@@ -36,15 +36,15 @@ namespace Tests
         {
             var words = fullText.Split(new[] {' ', ',', '.', '!', '?', '-', ':', ';', '(', ')', '\'', '\"'});
 
-            Sort<string>.ByBubble(words).Should().ContainInOrder(words.OrderBy(x => x));
-            Sort<string>.ByBubble(words,SortOrder.Descending).Should().ContainInOrder(words.OrderByDescending(x => x));
+            Sort<string>.ByBubble(words).sortedCollection.Should().ContainInOrder(words.OrderBy(x => x));
+            Sort<string>.ByBubble(words,SortOrder.Descending).sortedCollection.Should().ContainInOrder(words.OrderByDescending(x => x));
         }
         
         [Test]
         public void SortStringsCorrectly()
         {
-            Sort<string>.ByBubble(strings).Should().ContainInOrder(strings.OrderBy(x => x));
-            Sort<string>.ByBubble(strings, SortOrder.Descending).Should().ContainInOrder(strings.OrderByDescending(x => x));
+            Sort<string>.ByBubble(strings).sortedCollection.Should().ContainInOrder(strings.OrderBy(x => x));
+            Sort<string>.ByBubble(strings, SortOrder.Descending).sortedCollection.Should().ContainInOrder(strings.OrderByDescending(x => x));
         }
         
         [Test]
@@ -56,8 +56,15 @@ namespace Tests
                 11, 10
             };
 
-            Sort<int>.ByBubble(data).Should().ContainInOrder(data.OrderBy(x => x));
-            Sort<int>.ByBubble(data,SortOrder.Descending).Should().ContainInOrder(data.OrderByDescending(x => x));
+            Sort<int>.ByBubble(data).sortedCollection.Should().ContainInOrder(data.OrderBy(x => x));
+            Sort<int>.ByBubble(data,SortOrder.Descending).sortedCollection.Should().ContainInOrder(data.OrderByDescending(x => x));
+        }
+
+        [Test]
+        public void CountOperationsCorrectly()
+        {
+            Sort<int>.ByBubble(new[] {1, 3, 2, 4}).totalOperations.Should().Be(1);
+            Sort<int>.ByBubble(new[] {4, 1, 2, 3}).totalOperations.Should().Be(3);
         }
     }
 }

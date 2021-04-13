@@ -6,11 +6,12 @@ namespace BubbleSort
 {
     public static class Sort<T> where T : IComparable
     {
-        public static IEnumerable<T> ByBubble(IEnumerable<T> enumerable, SortOrder order = SortOrder.Ascending)
+        public static (IEnumerable<T> sortedCollection, long totalOperations) ByBubble(IEnumerable<T> enumerable, SortOrder order = SortOrder.Ascending)
         {
             var arr = enumerable.ToArray();
             var swapCount = 0;
-
+            var totalOperations = 0L;
+            
             do
             {
                 swapCount = 0;
@@ -23,9 +24,12 @@ namespace BubbleSort
                     arr[i] = temp;
                     swapCount++;
                 }
+                
+                totalOperations += swapCount;
+                
             } while (swapCount != 0);
 
-            return arr;
+            return (arr, totalOperations);
         }
 
         private static bool NeedToSwap(T first, T second, SortOrder order) =>
